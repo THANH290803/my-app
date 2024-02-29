@@ -1095,6 +1095,7 @@ textarea.form-control {
 .product__price {
     font-size: 1.8rem;
     margin-top: 12px;
+    text-align: center;
 }
 
 .price__old {

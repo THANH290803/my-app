@@ -350,9 +350,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -367,9 +365,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -384,9 +380,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -401,9 +395,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -418,9 +410,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -435,9 +425,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -452,9 +440,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -486,9 +472,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -503,9 +487,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -520,9 +502,7 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        300.000 đ
-                                                    </div>
+                                                    
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
@@ -548,9 +528,7 @@ function Home() {
                                     <div className="product__info">
                                         <h3 className="product__name">Son môi cao cấp</h3>
                                         <div className="product__price">
-                                            <div className="price__old">
-                                                100.000 đ
-                                            </div>
+
                                             <div className="price__new"> 70.000<span className="price__unit">đ</span></div>
                                         </div>
                                     </div>
@@ -564,9 +542,7 @@ function Home() {
                                     <div className="product__info">
                                         <h3 className="product__name">Son môi cao cấp</h3>
                                         <div className="product__price">
-                                            <div className="price__old">
-                                                100.000 đ
-                                            </div>
+
                                             <div className="price__new"> 70.000<span className="price__unit">đ</span></div>
                                         </div>
                                     </div>
@@ -580,9 +556,7 @@ function Home() {
                                     <div className="product__info">
                                         <h3 className="product__name">Son môi cao cấp</h3>
                                         <div className="product__price">
-                                            <div className="price__old">
-                                                100.000 đ
-                                            </div>
+
                                             <div className="price__new"> 70.000<span className="price__unit">đ</span></div>
                                         </div>
                                     </div>
@@ -596,9 +570,7 @@ function Home() {
                                     <div className="product__info">
                                         <h3 className="product__name">Son môi cao cấp</h3>
                                         <div className="product__price">
-                                            <div className="price__old">
-                                                100.000 đ
-                                            </div>
+
                                             <div className="price__new"> 70.000<span className="price__unit">đ</span></div>
                                         </div>
                                     </div>
@@ -612,9 +584,7 @@ function Home() {
                                     <div className="product__info">
                                         <h3 className="product__name">Son môi cao cấp</h3>
                                         <div className="product__price">
-                                            <div className="price__old">
-                                                100.000 đ
-                                            </div>
+
                                             <div className="price__new"> 70.000<span className="price__unit">đ</span></div>
                                         </div>
                                     </div>
@@ -628,9 +598,7 @@ function Home() {
                                     <div className="product__info">
                                         <h3 className="product__name">Son môi cao cấp</h3>
                                         <div className="product__price">
-                                            <div className="price__old">
-                                                100.000 đ
-                                            </div>
+
                                             <div className="price__new"> 70.000<span className="price__unit">đ</span></div>
                                         </div>
                                     </div>
@@ -644,9 +612,6 @@ function Home() {
                                     <div className="product__info">
                                         <h3 className="product__name">Son môi cao cấp</h3>
                                         <div className="product__price">
-                                            <div className="price__old">
-                                                100.000 đ
-                                            </div>
                                             <div className="price__new"> 70.000<span className="price__unit">đ</span></div>
                                         </div>
                                     </div>

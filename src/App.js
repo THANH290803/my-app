@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-import Book from './pages/Book/BookDetails';
+import Book from './pages/Cart/Cart';
 
 function App() {
   return (
