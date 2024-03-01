@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 class Header extends React.Component {
@@ -74,8 +75,8 @@ class Header extends React.Component {
                                     </li>
                                 </ul>
                                 <div className="total-money">Tổng cộng: 120.000đ</div>
-                                <a href="cart.html" className="btn btn--default cart-btn">Xem giỏ hàng</a>
-                                <a href="pay.html" className="btn btn--default cart-btn orange">Thanh toán</a>
+                                <Link to={"/Cart"} href="cart.html" className="btn btn--default cart-btn">Xem giỏ hàng</Link>
+                                <Link to={"/Pay"} className="btn btn--default cart-btn orange">Thanh toán</Link>
                                 {/* <!-- norcart -->
                             <!-- <img className="header__cart-img-nocart" src="http://www.giaybinhduong.com/images/empty-cart.png" alt=""> --> */}
                             </div>
@@ -105,13 +106,13 @@ class Header extends React.Component {
                             </ul>
                         </li>
                         <li className="header__nav-item index">
-                            <a href="index.html" className="header__nav-link">Trang chủ</a>
+                            <Link to={"/"} className="header__nav-link">Trang chủ</Link>
                         </li>
                         <li className="header__nav-item">
                             <a href="#" className="header__nav-link">Giới Thiệu</a>
                         </li>
                         <li className="header__nav-item">
-                            <a href="#" className="header__nav-link">Sản Phẩm</a>
+                            <Link to={"/Book"} className="header__nav-link">Sản Phẩm</Link>
                             <div className="sub-nav-wrap grid wide">
                                 <ul className="sub-nav">
                                     <li className="sub-nav__item">
@@ -198,9 +199,9 @@ class Header extends React.Component {
                         <li className="header__nav-item">
                             <a href="news.html" className="header__nav-link">Tin Tức</a>
                         </li>
-                        <li className="header__nav-item">
+                        {/* <li className="header__nav-item">
                             <a href="contact.html" className="header__nav-link">Liên Hệ</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

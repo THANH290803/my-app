@@ -6,6 +6,7 @@ import './home.css'
 import Header from "../Component/header"
 import Footer from "../Component/footer"
 import FromLogin from "../Component/dialog"
+import { Link } from "react-router-dom";
 
 function Home() {
     const [slides, setSlides] = useState([]);
@@ -79,7 +80,7 @@ function Home() {
     return (
         <>
             <Header />
-            <div className="main" style={{ backgroundColor: 'pink' }}>
+            <div className="main" style={{ backgroundColor: 'pink', paddingTop: "0px", paddingLeft: "0px", paddingRight: "0px"}}>
                 {/* <!-- Slider --> */}
                 <div className="main__slice">
                     <div className="slider">
@@ -136,7 +137,7 @@ function Home() {
                                                     <div className="price__new">700.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>
-                                            <a href="product.html" className="viewDetail">Xem chi tiết</a>
+                                            <Link to={'/Book-Detail'} className="viewDetail">Xem chi tiết</Link>
                                             <a href="cart.html" className="addToCart">Thêm vào giỏ</a>
                                         </div>
                                     </div>
@@ -252,9 +253,6 @@ function Home() {
                                             <div className="product__info">
                                                 <h3 className="product__name">Kem dưỡng da NestPlae</h3>
                                                 <div className="product__price">
-                                                    <div className="price__old">
-                                                        700.000 đ
-                                                    </div>
                                                     <div className="price__new">200.000 <span className="price__unit">đ</span></div>
                                                 </div>
                                             </div>

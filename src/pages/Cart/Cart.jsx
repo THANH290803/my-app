@@ -117,7 +117,7 @@ class Cart extends React.Component {
                                             {(this.product.price) * (this.state.quantity)} VND
                                         </div>
                                     </div>
-                                    <div className="btn btn--default orange">Tiến hành thanh toán</div>
+                                    <button className="btn btn--default orange">Tiến hành thanh toán</button>
 
                                 </div>
                             </div>
