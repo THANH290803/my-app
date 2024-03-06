@@ -80,7 +80,7 @@ function Home() {
     return (
         <>
             <Header />
-            <div className="main" style={{ backgroundColor: 'pink', paddingTop: "0px", paddingLeft: "0px", paddingRight: "0px"}}>
+            <div className="main" style={{ backgroundColor: 'pink', paddingTop: "0px", paddingLeft: "0px", paddingRight: "0px" }}>
                 {/* <!-- Slider --> */}
                 <div className="main__slice">
                     <div className="slider">
@@ -420,7 +420,7 @@ function Home() {
                 </div>
                 {/* <!-- Sales Policy --> */}
                 <div className="main__policy">
-                    <div className="row">
+                    <div className="row" style={{ display: "flex", flexWrap: "nowrap" }}>
                         <div className="col l-3 m-6">
                             <div className="policy bg-1">
                                 <img src="assets/img/policy/policy1.png" className="policy__img"></img>

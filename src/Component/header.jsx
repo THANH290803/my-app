@@ -25,8 +25,10 @@ class Header extends React.Component {
                             </div>
                         </div>
                         <div className="header__account">
-                            <a href="#my-Login" className="header__account-login">Đăng Nhập</a>
-                            <a href="#my-Register" className="header__account-register">Đăng Kí</a>
+                            {/* <a href="#my-Login" className="header__account-login">Đăng Nhập</a>
+                            <a href="#my-Register" className="header__account-register">Đăng Kí</a> */}
+                            <Link to={"/Order"} className="header__account-login">Tài khoản</Link>
+                            <a href="#my-Register" className="header__account-register">Đăng xuất</a>
                         </div>
 
                         {/* <!-- Cart --> */}
@@ -85,7 +87,7 @@ class Header extends React.Component {
                 </div>
                 {/* <!-- Menu --> */}
                 <div className="header__nav">
-                    <ul className="header__nav-list">
+                    <ul className="header__nav-list" style={{ marginTop: "15px" }}>
                         <li className="header__nav-item nav__search">
                             <div className="nav__search-wrap">
                                 <input className="nav__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm..." />

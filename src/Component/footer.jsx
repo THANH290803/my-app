@@ -99,9 +99,6 @@ class Footer extends React.Component{
                     <span className="footer__text"> Dọc, Đọc nữa, Đọc Mãi cùng  <a className="footer__link" href="#"> Thành Po </a></span>
                 </div>
             </div>
-            
-
-        
         )
     }
 }
